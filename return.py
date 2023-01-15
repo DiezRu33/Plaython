@@ -18,7 +18,7 @@ def test(min, max, maxx):
         res += i
     return res
 
-print(test(1, 10, 12))
+# print(test(1, 10, 12))
 
 # contador(1, 10)
 # contador(11, 20)
@@ -30,3 +30,11 @@ print(test(1, 10, 12))
 # result_2 = contador(result, result + 10)
 # print(result_2)    
 
+
+
+def find_volume(length, width, depth=1):
+    return length * width * depth, width, 'Hola'
+
+result = find_volume(1, 15)
+
+print(result[0], result[2])
