@@ -73,5 +73,3 @@ elif num < num1:
 
 else:
     print("El numero ", num , " es mayór que ", num1)
-
-foreach num>=num1
