@@ -61,8 +61,8 @@ import random
 #             print('Computer option =>', computer_option)
 
 
-num = 100
-num1 = 100
+num = 0
+num1 = 1000
 
 if num > num1:
     print("El numero ", num, " es mayor que ",num1)
@@ -74,4 +74,3 @@ elif num < num1:
 else:
     print("El numero ", num , " es mayór que ", num1)
 
-foreach num>=num1
